@@ -1,5 +1,5 @@
 import mongoose, { model, Schema } from "mongoose"
-mongoose.connect("mongodb+srv://Saran:Saran%402004@cluster0.ggqxf.mongodb.net/shortUrl");
+mongoose.connect("MONGO DB LINK");
 
 const urlSchema = new Schema({
     orginalUrl : String,
